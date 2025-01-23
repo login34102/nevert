@@ -1,160 +1,80 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PES 2025 Tournament</title>
+    <title>تفاصيل المنتج</title>
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #1e1e2f, #ff8c00);
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            height: 100vh;
-            color: #ffffff;
-        }
-        header {
-            text-align: center;
-            margin-top: 20px;
-        }
-        header h1 {
-            font-size: 40px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-        header p {
-            font-size: 18px;
-            margin-top: 10px;
-        }
-        .info {
-            margin: 30px 0;
-            text-align: center;
-            background: rgba(255, 255, 255, 0.1);
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-            backdrop-filter: blur(10px);
-            width: 80%;
+        }
+        .product-detail {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
             max-width: 800px;
         }
-        .info h2 {
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-        .info ul {
-            list-style: none;
-            padding: 0;
-        }
-        .info ul li {
-            margin: 10px 0;
-            font-size: 18px;
-        }
-        form {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.18);
-            width: 80%;
+        .product-detail img {
+            width: 100%;
             max-width: 400px;
-        }
-        h2 {
-            text-align: center;
-            color: #ffffff;
             margin-bottom: 20px;
+        }
+        .product-detail h2 {
             font-size: 28px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
+            color: #2c3e50;
         }
-        input, textarea {
-            width: 100%;
-            padding: 12px 15px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 5px;
-            background: rgba(255, 255, 255, 0.2);
-            color: #ffffff;
-            font-size: 16px;
-        }
-        input::placeholder, textarea::placeholder {
-            color: #ccc;
-        }
-        button {
-            width: 100%;
-            padding: 12px;
-            background: linear-gradient(135deg, #f44336, #e91e63);
-            border: none;
-            border-radius: 5px;
-            color: white;
+        .product-detail p {
             font-size: 18px;
-            text-transform: uppercase;
+            color: #555;
+        }
+        .whatsapp-button {
+            background-color: #25d366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            text-decoration: none;
         }
-        button:hover {
-            background: linear-gradient(135deg, #e91e63, #f44336);
-        }
-        form label {
-            color: #ffffff;
-            font-size: 14px;
-            margin-bottom: 5px;
-            display: block;
+        .whatsapp-button:hover {
+            background-color: #128c7e;
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>بطولة بيس الرمضانية </h1>
-        <p>سجل دخولك واتبت مهاراتك واربج جوائز اسطورية</p>
-    </header>
 
-    <section class="info">
-        <h2>تفاصيل البطولة</h2>
-        <ul>
-            <li>📅 التاريخ: مارس 15-17, 2025</li>
-            <li>📍 الموقع : على الانترنيت  </li>
-            <li>🏆 الجوائز : الفوز بحساب اسطوري</li>
-            <li>🎮 النسخة: PES 2025</li>
-           
-            <li>📋 القواعد: 
-              قواعد بطولة PES 2025 🎮
-              1. إعدادات اللعبة:
-              يجب على جميع اللاعبين استخدام النسخة الرسمية من PES 2025.
-              مدة كل مباراة هي 10 دقائق مع وقت إضافي وضربات ترجيح إذا لزم الأمر.
-              غير مسموح باستخدام الفرق المخصصة؛ يجب على اللاعبين استخدام الفرق المرخصة فقط.
-              2. نظام البطولة:
-              البطولة تعتمد نظام الإقصاء المباشر.
-              كل مواجهة تُلعب على أساس أفضل 3 مباريات (Best of 3).
-              في حالة التعادل في النقاط، يتم اللجوء إلى مباراة فاصلة.
-              3. قواعد اللعب:
-              يُمنع استخدام أي أساليب غش أو برمجيات مساعدة.
-              يجب على اللاعبين احترام قواعد الروح الرياضية وعدم القيام بأي تصرفات غير لائقة.
-              يُطلب من جميع اللاعبين الحضور قبل 30 دقيقة من موعد المباراة.
-             5. العقوبات:
-              أي لاعب يقوم بتصرف غير رياضي سيتم تحذيره أولاً.
-              في حال تكرار المخالفة، سيتم استبعاده نهائياً من البطولة.</li>
-        </ul>
-    </section>
+<div class="product-detail">
+    <img src="https://h.top4top.io/p_3310nzt1a1.jpg" alt="منتج">
+    <h2>فرن صغير</h2>
+    <p>وصف المنتج: فرن صغير مستعمل بحالة جيدة
 
-    <form action="https://formspree.io/f/mvggvabo" method="POST">
-        <h2>Register Now</h2>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        نقدم لكم فرنًا صغير الحجم بحالة ممتازة، مثالي لتسخين المأكولات الخفيفة مثل السندويشات والمعجنات. يتميز الفرن بمظهر نظيف ووظائف تعمل بشكل جيد رغم أنه قديم.
+        
+        المواصفات:
+        
+        الحجم: صغير ومناسب للاستخدامات الخفيفة.
+        
+        الحالة: مستعمل ولكنه بحالة رائعة ويعمل بكفاءة.
+        
+        الاستخدام: مثالي لتسخين الأطعمة الخفيفة.
+        
+        
+        السعر:
+        150 درهمًا فقط
+        
+        التوصيل:
+        يتوفر التوصيل إلى مناطق الرباط، سلا، والقنيطرة فقط، مع رسوم توصيل إضافية قدرها 10 دراهم.
+        
+        للطلب أو الاستفسار:
+        يرجى التواصل معنا عبر الواتساب.</p>
+    <p><strong>السعر:</strong> 150 درهم</p>
+    <a href="https://wa.me/212674792441" class="whatsapp-button" target="_blank">تواصل عبر واتساب للشراء</a>
+</div>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-        <label for="comment">mot de pass:</label>
-        <textarea id="comment" name="comment" placeholder="Enter your password " rows="4" required></textarea>
-
-        <button type="submit">Register Now</button>
-    </form>
 </body>
 </html>
-
